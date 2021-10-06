@@ -3,11 +3,5 @@ function getRandomInt(min, max) {
 }
 
 function checkLenght(checkedStr, maxLenght) {
-  let result;
-  if (checkedStr.length <= maxLenght) {
-    result = true;
-  } else {
-    result = false;
-  }
-  return result;
+  return checkedStr.length <= maxLenght;
 }
